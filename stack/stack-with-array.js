@@ -1,14 +1,14 @@
-class Stack {
+export class Stack {
   constructor () {
     this.items = []
   }
 
-  add(...items) {
+  push(...items) {
     for (const item of items)
       this.items.push(item)
   }
 
-  remove() {
+  pop() {
     return this.items.pop()
   }
 
@@ -29,14 +29,13 @@ class Stack {
   }
 }
 
-const stack = new Stack()
-stack.add('Box', 'table')
-console.log(stack.remove())
-console.log(stack.peek())
-console.log(stack.isEmpty())
+// const stack = new Stack()
+// stack.push('Box', 'table')
+// console.log(stack.pop())
+// console.log(stack.peek())
+// console.log(stack.isEmpty())
 
+// stack.clear()
+// console.log(stack.isEmpty())
 
-stack.clear()
-console.log(stack.isEmpty())
-
-console.log(stack.size())
+// console.log(stack.size())
