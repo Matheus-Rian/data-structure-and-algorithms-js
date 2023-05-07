@@ -1,0 +1,21 @@
+{
+  "name": "data-structure-and-algorithms",
+  "type": "module",
+  "version": "1.0.0",
+  "description": "A data structure is a way of organizing and storing data in a computer program so that it can be accessed and used efficiently. JavaScript has built-in data structures such as arrays, objects, and maps, but it also allows for the creation of custom data structures.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Matheus-Rian/data-structure-and-algorithms-js.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Matheus-Rian/data-structure-and-algorithms-js/issues"
+  },
+  "homepage": "https://github.com/Matheus-Rian/data-structure-and-algorithms-js#readme"
+}
