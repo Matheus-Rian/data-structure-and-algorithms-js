@@ -1,6 +1,6 @@
 // É uma fila especial que nos permite inserir e remover elementos do final ou da frente da fila.
 
-class Deque {
+export class Deque {
   constructor () {
     this.count = 0
     this.lowestCount = 0
@@ -37,16 +37,16 @@ class Deque {
     delete this.items[this.lowestCount]
     this.lowestCount++
 
-    return result
+    return result  
   }
 
   removeBack() {
     if (this.isEmpty())
       return undefined
 
+    this.count--
     const result = this.items[this.count]
     delete this.items[this.count]
-    this.count--
 
     return result
   }
